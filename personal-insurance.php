@@ -14,6 +14,9 @@ $extraCss = '<style>
         .service-item { background: #f8f9fa; padding: 30px; border-radius: 12px; border-left: 4px solid var(--secondary-color); }
         .service-item h3 { margin-bottom: 15px; color: var(--primary-color); }
         .service-item i { font-size: 2rem; color: var(--secondary-color); margin-bottom: 15px; }
+        .service-cta { display: inline-block; margin-top: 20px; font-weight: 700; color: var(--secondary-color); text-decoration: none; font-size: 0.9rem; transition: transform 0.2s; }
+        .service-cta:hover { transform: translateX(5px); }
+        .service-cta i { font-size: 0.8rem; margin-left: 5px; color: inherit; }
     </style>';
 include 'includes/header.php';
 ?>
@@ -40,36 +43,43 @@ include 'includes/header.php';
                     <i class="fa-solid fa-car"></i>
                     <h3>Motor Insurance</h3>
                     <p>Drive with confidence. Our motor insurance policies offer comprehensive coverage against accidents, theft, and third-party liabilities, ensuring you are protected on every journey.</p>
+                    <a href="<?= BASE_PATH ?>/motor-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="gap">
                     <i class="fa-solid fa-chart-line"></i>
                     <h3>Gap Insurance</h3>
                     <p>Protect your investment. Gap insurance covers the difference between the actual cash value of your vehicle and the balance still owed on your financing if your car is totaled or stolen.</p>
+                    <a href="<?= BASE_PATH ?>/gap-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="protect-plus">
                     <i class="fa-solid fa-shield-halved"></i>
                     <h3>Protect Plus Insurance</h3>
                     <p>An enhanced layer of security offering extended coverage benefits for high-value assets and unique personal risks, giving you premium protection when standard policies fall short.</p>
+                    <a href="<?= BASE_PATH ?>/protect-plus-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="travel">
                     <i class="fa-solid fa-plane-departure"></i>
                     <h3>Travel Insurance</h3>
                     <p>Travel the world worry-free. From trip cancellations to emergency medical assistance overseas, our travel insurance plans have you covered globally.</p>
+                    <a href="<?= BASE_PATH ?>/travel-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="home">
                     <i class="fa-solid fa-house"></i>
                     <h3>Home Insurance</h3>
                     <p>Your home is your sanctuary. Protect your property, belongings, and personal liability against fire, theft, natural disasters, and unforeseen accidents.</p>
+                    <a href="<?= BASE_PATH ?>/home-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="malpractice">
                     <i class="fa-solid fa-user-doctor"></i>
                     <h3>Medical Malpractice</h3>
                     <p>Essential coverage for healthcare professionals. Safeguard your career and finances against claims of negligence, ensuring you can practice with peace of mind.</p>
+                    <a href="<?= BASE_PATH ?>/medical-malpractice.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="liability">
                     <i class="fa-solid fa-scale-balanced"></i>
                     <h3>Third Party Liability</h3>
                     <p>Comprehensive protection against claims made by others for injury or property damage caused by your non-professional daily activities.</p>
+                    <a href="<?= BASE_PATH ?>/third-party-liability.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

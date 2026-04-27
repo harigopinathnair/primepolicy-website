@@ -9,6 +9,9 @@ $extraCss = '<style>
         .service-item { background: #f8f9fa; padding: 30px; border-radius: 12px; border-left: 4px solid var(--secondary-color); }
         .service-item h3 { margin-bottom: 15px; color: var(--primary-color); }
         .service-item i { font-size: 2rem; color: var(--secondary-color); margin-bottom: 15px; }
+        .service-cta { display: inline-block; margin-top: 20px; font-weight: 700; color: var(--secondary-color); text-decoration: none; font-size: 0.9rem; transition: transform 0.2s; }
+        .service-cta:hover { transform: translateX(5px); }
+        .service-cta i { font-size: 0.8rem; margin-left: 5px; color: inherit; }
     </style>';
 include 'includes/header.php';
 ?>
@@ -29,18 +32,18 @@ include 'includes/header.php';
             </div>
 
             <div class="service-list">
-                <a href="<?= BASE_PATH ?>/individual-life-insurance.php" class="service-item" id="individual" style="display:block;text-decoration:none;color:inherit;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(26,115,232,0.15)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+                <div class="service-item" id="individual">
                     <i class="fa-solid fa-heart-circle-check"></i>
                     <h3>Individual Life Insurance</h3>
                     <p>Term, whole, and universal life insurance plans designed to fit your long-term financial goals. Provide your family with a tax-free death benefit and secure their standard of living, education, and future.</p>
-                    <p style="margin-top:12px;color:var(--secondary-color);font-weight:600;font-size:0.95rem;">Learn more &rarr;</p>
-                </a>
-                <a href="<?= BASE_PATH ?>/group-life-insurance.php" class="service-item" id="group" style="display:block;text-decoration:none;color:inherit;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(26,115,232,0.15)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+                    <a href="<?= BASE_PATH ?>/individual-life-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-item" id="group">
                     <i class="fa-solid fa-people-group"></i>
                     <h3>Group Life Insurance</h3>
                     <p>An essential employee benefit that provides life coverage to your workforce. Enhance your corporate benefits package and offer your employees the ultimate peace of mind knowing their families are protected.</p>
-                    <p style="margin-top:12px;color:var(--secondary-color);font-weight:600;font-size:0.95rem;">Learn more &rarr;</p>
-                </a>
+                    <a href="<?= BASE_PATH ?>/group-life-insurance.php" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
     </section>

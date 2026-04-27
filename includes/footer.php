@@ -35,9 +35,7 @@
             <div class="footer-widget">
                 <h3>Contact Info</h3>
                 <ul class="contact-info">
-                    <li><i class="fa-solid fa-location-dot"></i> Prime Tower, Business Bay, Dubai, UAE</li>
                     <li><i class="fa-solid fa-envelope"></i> info@primepolicies.com</li>
-                    <li><i class="fa-solid fa-phone"></i> 800 PRIME (77463)</li>
                 </ul>
             </div>
         </div>

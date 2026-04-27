@@ -9,6 +9,9 @@ $extraCss = '<style>
         .service-item { background: #f8f9fa; padding: 30px; border-radius: 12px; border-left: 4px solid var(--secondary-color); }
         .service-item h3 { margin-bottom: 15px; color: var(--primary-color); }
         .service-item i { font-size: 2rem; color: var(--secondary-color); margin-bottom: 15px; }
+        .service-cta { display: inline-block; margin-top: 20px; font-weight: 700; color: var(--secondary-color); text-decoration: none; font-size: 0.9rem; transition: transform 0.2s; }
+        .service-cta:hover { transform: translateX(5px); }
+        .service-cta i { font-size: 0.8rem; margin-left: 5px; color: inherit; }
     </style>';
 include 'includes/header.php';
 ?>
@@ -33,11 +36,13 @@ include 'includes/header.php';
                     <i class="fa-solid fa-user-nurse"></i>
                     <h3>Individual Medical Insurance</h3>
                     <p>Tailored health plans for you and your family. Enjoy expansive clinic networks, inpatient and outpatient covers, maternity benefits, and emergency medical assistance. We customize our packages to fit your lifestyle and healthcare needs.</p>
+                    <a href="<?= BASE_PATH ?>/medical-insurance.php#individual" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="service-item" id="group">
                     <i class="fa-solid fa-users-rectangle"></i>
                     <h3>Group Medical Insurance</h3>
                     <p>Attract and retain top talent by offering premium health benefits. Our corporate medical plans are scalable, compliant with local regulations, and provide cost-effective health management solutions for businesses of any size.</p>
+                    <a href="<?= BASE_PATH ?>/medical-insurance.php#group" class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

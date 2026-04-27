@@ -336,13 +336,7 @@ include 'includes/header.php';
                 <!-- Info -->
                 <div class="quote-info">
                     <h3>We're Here to Help</h3>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
-                        <div>
-                            <h4>Call Us</h4>
-                            <p>800 PRIME (77463)<br>Available Sun–Thu, 9 AM – 6 PM</p>
-                        </div>
-                    </div>
+
                     <div class="info-item">
                         <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
                         <div>
@@ -350,13 +344,7 @@ include 'includes/header.php';
                             <p>info@primepolicies.com<br>We reply within 24 hours</p>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
-                        <div>
-                            <h4>Visit Us</h4>
-                            <p>Prime Tower, Business Bay<br>Dubai, UAE</p>
-                        </div>
-                    </div>
+
                     <div class="info-item">
                         <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
                         <div>
