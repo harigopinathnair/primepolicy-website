@@ -5,14 +5,14 @@ define('BASE_PATH', ($_SERVER['HTTP_HOST'] ?? '') === 'localhost' ? '/primepolic
 // Auto-detect environment to switch database credentials seamlessly
 if (($_SERVER['HTTP_HOST'] ?? '') === 'localhost') {
     // Local WAMP Credentials
-    $host     = 'localhost';
-    $dbname   = 'primedatabase';
-    $username = 'root';
-    $password = '';
+    $host = 'localhost';
+    $dbname = 'nqatsxqe_wp532';
+    $username = 'nqatsxqe_wp532';
+    $password = '41p]ySg7.h';
 } else {
     // Live Server Credentials
-    $host     = 'localhost';
-    $dbname   = 'primedatabase';
+    $host = 'localhost';
+    $dbname = 'primedatabase';
     $username = 'root';
     $password = '';
 }
