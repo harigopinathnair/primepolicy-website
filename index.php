@@ -142,9 +142,9 @@ include 'includes/header.php';
     <!-- Insurance Introductions -->
     <section class="ins-intro-section">
         <div class="container">
-            <div class="section-header" style="text-align:center; margin-bottom:52px;">
-                <p class="section-label">What We Cover</p>
-                <h2>Comprehensive Insurance Solutions in the UAE</h2>
+            <div class="section-header redesign">
+                <div class="header-pill"></div>
+                <h2>Comprehensive Insurance Solutions <span class="text-gradient">in the UAE</span></h2>
                 <p class="section-sub">From protecting your family to safeguarding your business, we have the right coverage for every stage of life.</p>
             </div>
 
@@ -272,10 +272,10 @@ include 'includes/header.php';
     <!-- Quote / Contact Form Section -->
     <section class="quote-section" id="quote">
         <div class="container" id="contact">
-            <div style="text-align:center; margin-bottom:48px;">
-                <span class="section-label">Get a Quote</span>
-                <h2>Request Your Custom Insurance Quote</h2>
-                <p class="sub">Fill in your details and one of our advisors will get back to you within 24 hours.</p>
+            <div class="section-header redesign">
+                <div class="header-pill"></div>
+                <h2>Request Your <span class="text-gradient">Custom</span> Insurance Quote</h2>
+                <p class="section-sub">Fill in your details and one of our advisors will get back to you within 24 hours.</p>
             </div>
             <div class="quote-grid">
                 <!-- Form -->

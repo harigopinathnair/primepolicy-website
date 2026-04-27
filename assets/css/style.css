@@ -535,33 +535,49 @@ ul {
     gap: 11px;
 }
 
-/* ── Insurance Intro Section ─────────────────────────────────────── */
+/* ── Insurance Intro Section Redesign ────────────────────────────── */
 .ins-intro-section {
-    background: #f4f7fc;
-    padding: 80px 0 60px;
+    background: #f8fbff;
+    padding: 100px 0 80px;
 }
 
-.ins-intro-section .section-label {
-    font-size: 0.82rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: var(--secondary-color);
-    margin-bottom: 10px;
-    display: block;
+.section-header.redesign {
+    text-align: center;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.ins-intro-section h2 {
-    font-size: 2.1rem;
+.header-pill {
+    width: 140px;
+    height: 6px;
+    background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.section-header.redesign h2 {
+    font-size: 3rem;
+    font-weight: 800;
     color: var(--primary-color);
-    margin-bottom: 12px;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
 }
 
-.ins-intro-section .section-sub {
-    font-size: 1rem;
-    color: #667;
-    max-width: 580px;
+.section-header.redesign .section-sub {
+    font-size: 1.15rem;
+    color: #5a6b8a;
+    max-width: 680px;
     margin: 0 auto;
+    line-height: 1.7;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ins-intro-row {
