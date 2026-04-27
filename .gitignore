@@ -1,0 +1,22 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# AI/Editor Settings
+.claude/
+.vscode/
+.idea/
+
+# PHP/WAMP Specific
+error_log
+php_errors.log
+composer.lock
+vendor/
+
+# Environment/Secrets
+.env
+config.php
+config.php.bak
