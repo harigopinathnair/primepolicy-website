@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nqatsxqe/primepolicy
+    - export DEPLOYPATH=/home/nqatsxqe/primepolicies.com
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
     - /bin/rm $DEPLOYPATH/.cpanel.yml
